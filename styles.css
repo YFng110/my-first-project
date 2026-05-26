@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0a0a0a;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#container canvas {
+  display: block;
+}
+
+.hint {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  line-height: 1.8;
+  pointer-events: none;
+  transition: opacity 2s ease;
+  z-index: 10;
+}
+
+.hint.fade-out {
+  opacity: 0;
+}
+
+.speed-display {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.speed-display.hidden {
+  opacity: 0;
+}
+
+.fallback {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-size: 18px;
+  background: #1a1a2e;
+  z-index: 100;
+}
+
+.fallback.hidden {
+  display: none;
+}

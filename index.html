@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>森林骑行</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container"></div>
+
+  <div id="hint" class="hint">
+    拖拽鼠标环顾四周 | 滚轮调节速度
+  </div>
+
+  <div id="speed-display" class="speed-display hidden">1.0x</div>
+
+  <div id="fallback" class="fallback hidden">
+    请使用支持 WebGL 的现代浏览器查看此页面
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
