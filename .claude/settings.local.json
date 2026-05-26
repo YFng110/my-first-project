@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"d:\\\\Backup\\\\Documents\\\\GitHub\\\\my-first-project\" log --oneline -5)"
+    ]
+  }
+}
