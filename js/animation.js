@@ -1,5 +1,7 @@
 // js/animation.js — 相机路径动画 + 鼠标/滚轮交互
 
+import * as THREE from 'three';
+
 let clock, path, camera, bike, renderer, scene;
 let speedMultiplier = 1.0;
 let lookOffsetX = 0;

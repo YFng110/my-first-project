@@ -1,5 +1,7 @@
 // js/terrain.js — 地形几何体 + 路径曲线
 
+import * as THREE from 'three';
+
 export function createTerrain(scene) {
   // 地面 — 带起伏的平面
   const size = 200;

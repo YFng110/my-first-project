@@ -1,5 +1,7 @@
 // js/forest.js — 使用 Group 批量生成树木
 
+import * as THREE from 'three';
+
 export function createForest(scene, path) {
   const treeGroup = new THREE.Group();
   scene.add(treeGroup);

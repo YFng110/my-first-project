@@ -1,5 +1,7 @@
 // js/bike.js — 自行车 + 骑手简化几何体模型
 
+import * as THREE from 'three';
+
 export function createBike(scene) {
   const bike = new THREE.Group();
   scene.add(bike);

@@ -1,5 +1,7 @@
 // js/scene.js — 场景、渲染器、相机、光照、雾
 
+import * as THREE from 'three';
+
 let scene, camera, renderer;
 
 export function createScene() {
